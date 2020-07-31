@@ -1,5 +1,4 @@
-function validate(input)
-{
+function validate(input) {
     const closeBrackets = {
         '}': '{',
         ']': '[',
@@ -41,14 +40,12 @@ function validate(input)
     }
 }
 
-function showError()
-{
+function showError() {
     show.innerHTML += 'FALSE';
     show.style = 'color: red; font-size: 77px;';
 }
 
-function validation()
-{
+function validation() {
     show.innerHTML = ("")
 
     const input = symbole.value;
